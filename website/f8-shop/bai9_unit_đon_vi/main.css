@@ -1,0 +1,26 @@
+* {
+    margin: 0; /* Loại bỏ margin mặc định */
+    padding: 0; /* Loại bỏ padding mặc định */
+}
+
+
+html {
+    font-size: 100%;
+}
+
+.box{
+    width: 70%;
+    height: 100px;
+    background-color: yellow;
+}
+
+.first1{
+    font-size: 40px;
+    width: 500px;
+    height: 100px;
+    background-color: azure;
+}
+
+.first2 {
+    font-size: 10rem;/*2rem = 2x40px*/
+}

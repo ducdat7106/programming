@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+}
+
+h1 {
+    /* 
+        vị trí tương đối
+        -->ko bị phụ thuộc vào bất cứ đối tượng nào khác cả
+        -lấy trính vị trí đang đứng để làm gốc tọa độ
+        -->phụ thuộc chính nó  --> đứng im
+    */
+    position: relative;
+
+    /* 4 thuộc tính */
+    top: 100px;
+    left :100px;
+}

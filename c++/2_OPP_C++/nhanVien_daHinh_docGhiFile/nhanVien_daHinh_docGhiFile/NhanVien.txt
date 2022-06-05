@@ -1,0 +1,4 @@
+3
+P110, Tran Tung Lam, 12/4/1985, 12 Quoc Lo 1A Binh Tan Ho Chi Minh, 8.56, 8000000, 2000000
+D310, Ly Quoc Kiet, 2/9/1991, 72 Nguyen Thi Minh Khai Quan 3 Ho Chi Minh, 4.66, 6000000, 15000000
+P350, Lam Tieu Mai, 12/7/1991, 1/32 Nguyen Trai Quan 1 Ho CHi Minh, 3.76, 8000000, 3000000 

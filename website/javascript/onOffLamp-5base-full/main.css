@@ -1,0 +1,47 @@
+html , body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+/* .Co, .Dust, .Sound , .result{
+    float: left;
+} */
+
+.Co {
+    width: 250px;
+    height: 100px;
+    font-size: 20px;
+    color: black;
+
+}
+
+.Dust {
+    width: 250px;
+    height: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+.Sound {
+    width: 250px;
+    height: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+.result {
+    width: 250px;
+    height: 100px;
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}

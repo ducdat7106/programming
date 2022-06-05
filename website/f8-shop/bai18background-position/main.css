@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+} 
+
+.header {
+    width: 100%;
+    height: 100vh;    
+    background-image: url(https://kenh14cdn.com/thumb_w/660/2020/5/28/0-1590653959375414280410.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    /* điều chỉnh được vị trí */
+    /* ghi 1 kích thức-->kích thước thứ 2 tự động là center */
+    /* top right */
+    /* bottom left */
+    /* background-position: top right; */
+
+    /* số --> các lề trái, cái thứ 2 là center */
+    /* background-position: 100px;*/
+
+    /* có giá trị âm */
+    background-position:top 100px right 100px;
+
+
+    /* ngang , dọc */
+    background-position: 100px 100px;
+
+    
+}

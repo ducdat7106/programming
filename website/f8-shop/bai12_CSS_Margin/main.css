@@ -1,0 +1,33 @@
+
+
+.box {
+    width: 60px;
+    height:  60px;
+    color:  #fff; /*text while*/
+    /*căn giữa*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* làm cho các thuộc tính chịu ảnh hưởng --> dàn hàng ngang */
+    float: left;
+}
+
+
+.box1{
+    /*color background*/
+    background-color: black;
+    margin: 10px;
+    
+}
+
+.box2 {
+    background-color:orange ;
+    margin-left: 20px;
+}
+
+.box3{
+    background-color: red;
+    margin-left : 20px;
+
+}

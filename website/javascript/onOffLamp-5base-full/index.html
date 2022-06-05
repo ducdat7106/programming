@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning 25/5/2022</title>
+    
+    <link rel="stylesheet" href="./main.css">
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+    <!-- lien ket voi functions.js -->
+
+
+</head>
+
+<body>
+    <h1>GIÁM SÁT KHÍ THẢI GIAO THÔNG VÀ CÔNG NGHIỆP</h1>
+
+
+
+    <div class="Co">
+        Nồng độ CO:
+        <span  id="co">00</span>
+        <span> (ppm)</span>
+        <br>
+        <img id="imgCo" src="./image/safe.png" alt="an toan">
+    </div>
+
+
+    <div class="Dust">
+        Nồng độ bụi P2.5:      
+        <span id="dust">00</span>
+        <span> (ug/m3)</span>
+        <br>
+        <img id="imgDust" src="./image/safe.png" alt="an toan">
+    </div>
+
+
+    <!-- <div class="Sound">
+        Cường độ âm thanh:
+        <span id="sound">00</span>
+        <span>(dB)</span>
+        <br>
+        <img id="imgSound" src="./image/safe.png" alt="an toan">
+    </div>
+     -->
+
+    <div class="result">
+        <span id="result">00</span>
+    </div>
+    
+    
+    <script src="./function.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,8 @@
+D:\C#\hello_word\hello_word\bin\Debug\hello_word.exe.config
+D:\C#\hello_word\hello_word\bin\Debug\hello_word.exe
+D:\C#\hello_word\hello_word\bin\Debug\hello_word.pdb
+D:\C#\hello_word\hello_word\obj\Debug\hello_word.csproj.AssemblyReference.cache
+D:\C#\hello_word\hello_word\obj\Debug\hello_word.csproj.SuggestedBindingRedirects.cache
+D:\C#\hello_word\hello_word\obj\Debug\hello_word.csproj.CoreCompileInputs.cache
+D:\C#\hello_word\hello_word\obj\Debug\hello_word.exe
+D:\C#\hello_word\hello_word\obj\Debug\hello_word.pdb

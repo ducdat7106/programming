@@ -1,0 +1,8 @@
+D:\C#\outputModifier\outputModifier\bin\Debug\outputModifier.exe.config
+D:\C#\outputModifier\outputModifier\bin\Debug\outputModifier.exe
+D:\C#\outputModifier\outputModifier\bin\Debug\outputModifier.pdb
+D:\C#\outputModifier\outputModifier\obj\Debug\outputModifier.csproj.AssemblyReference.cache
+D:\C#\outputModifier\outputModifier\obj\Debug\outputModifier.csproj.SuggestedBindingRedirects.cache
+D:\C#\outputModifier\outputModifier\obj\Debug\outputModifier.csproj.CoreCompileInputs.cache
+D:\C#\outputModifier\outputModifier\obj\Debug\outputModifier.exe
+D:\C#\outputModifier\outputModifier\obj\Debug\outputModifier.pdb

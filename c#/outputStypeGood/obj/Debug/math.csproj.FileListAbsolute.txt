@@ -1,0 +1,8 @@
+D:\C#\math\bin\Debug\math.exe.config
+D:\C#\math\bin\Debug\math.exe
+D:\C#\math\bin\Debug\math.pdb
+D:\C#\math\obj\Debug\math.csproj.AssemblyReference.cache
+D:\C#\math\obj\Debug\math.csproj.SuggestedBindingRedirects.cache
+D:\C#\math\obj\Debug\math.csproj.CoreCompileInputs.cache
+D:\C#\math\obj\Debug\math.exe
+D:\C#\math\obj\Debug\math.pdb

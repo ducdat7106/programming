@@ -1,0 +1,4 @@
+﻿  DocGia.cpp
+  main.cpp
+D:\C++\2_OPP_C++\quanLyDocGia\quanLyDocGia\main.cpp(1,10): fatal error C1083: Cannot open include file: 'node.h': No such file or directory
+  Generating Code...

@@ -1,0 +1,28 @@
+html, body{
+    margin: 0;
+}
+
+.box {
+    /* yêu cầu : tạo khoảng cách giữa văn bản với lề
+
+        box-sixing : khắc phục vấn đề :
+        padding & border là tăng kích thước đối tượng
+
+        -->kích thước ko bị thay đổi
+
+        ứng dụng trong dựng base CSS
+    */
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: red;
+    
+    padding: 16px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.box {
+    /* ứng dụng trong sửa chữa trang web có sẵn(bảo trì trang web) */
+    box-sizing: unset;/*hủy*/
+}
