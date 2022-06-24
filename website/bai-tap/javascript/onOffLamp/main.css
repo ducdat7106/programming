@@ -1,0 +1,40 @@
+html , body {
+    margin: 0;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+}
+
+.button{
+    width: 32%;
+    height: 220px;
+    margin-left: 10px;
+    background-color: plum; /* Green background */
+}
+
+#button_1, #button_2 {
+    margin-left: 20px;
+    color: red;
+    background-color: yellow;
+}
+
+.display_number {
+    width: 32%;
+    height: 60px;
+    margin-left: 10px;
+    background-color: wheat;
+    color: blue;
+}
+
+.weight {
+    font-weight: 700;
+}
+
+#Temp {
+    position: absolute;
+    left: 180px;
+}
+
