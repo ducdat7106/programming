@@ -8,7 +8,6 @@
 #include <math.h>
 
 char *inputString();
-char inputChar();
-int* findCharInString(char chars, char *strings);
+char * reverseString(char *str);
 
 #endif
