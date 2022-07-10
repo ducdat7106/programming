@@ -1,0 +1,37 @@
+/*
+    # là id 
+*/
+
+#first_heading1 {
+  color: red;
+  font-size: 40px;
+}
+
+/*
+    . là class
+*/
+.second_heading {
+  color: green;
+  font-size: 30px;
+}
+
+.second_heading1.second_heading2 {
+  color: brown;
+}
+
+.first_heading {
+  color: aqua;
+  font-size: 20px;
+}
+
+.parent .child2 {
+  color: yellow;
+}
+
+.parent p {
+  color: red;
+}
+
+h2, p {
+  color: blue;
+}

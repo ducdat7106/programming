@@ -2,11 +2,11 @@
 
 using namespace std;
 
-
 #define Maxlength 100
 
 typedef int ElementType;
 typedef int Position;
+
 typedef struct
 {
     ElementType Elenments[Maxlength];
