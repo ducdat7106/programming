@@ -1,3 +1,19 @@
+/*
+Chúng ta sẽ tìm hiểu các vấn đề cơ bản sau:
+
+    Cài đặt danh sách (Khai báo)
+    Khởi tạo danh sách rỗng
+    Kiểm tra danh sách rỗng (danh sách đầy khi cài bằng mảng)
+    Chèn phần tử vào đầu danh sách
+    Chèn phần tử vào vị trí thứ k trong danh sách
+    Nhập danh sách
+    Xuất danh sách
+    Tìm 1 phần tử trong danh sách
+    Xóa phần tử đầu tiên trong danh sách
+    Xóa phần tử thứ k trong danh sách
+    Xóa phần tử có nội dung X trong danh sách
+*/
+
 #include <iostream>
 
 using namespace std;
@@ -68,11 +84,11 @@ Position Next_List(Position P, List L)
 // Chèn phần tử X vào danh sách L tại vị trí P
 void Insert_List(ElementType X, Position P, List &L)
 {
-    Position T;
-    T = (Node *)malloc(sizeof(Node));
-    T->Element = X;
-    T->Next = P->Next;
-    P->Next = T;
+    Position Temp; //Create node new
+    Temp = (Node *)malloc(sizeof(Node)); //memory allocation node new. This node pointed to by Temp
+    Temp->Element = X; //assign the appropriate value 
+    Temp->Next = P->Next;
+    P->Next = Temp;
 }
 
 void InsertList1(ElementType X, int P1, List *L)
@@ -230,6 +246,8 @@ int Element_Counter(List L)
     }
     return numberElement;
 }
+
+
 
 int main()
 {
