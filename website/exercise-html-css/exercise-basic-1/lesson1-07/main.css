@@ -1,0 +1,62 @@
+h1 {
+  color: rgb(206, 54, 79);
+  text-align: center;
+  margin-bottom: 30px;;
+}
+
+img {
+  width: 250px;
+  height: 300px;
+  float: left;
+}
+
+#ol-li{
+  color: white;
+  background: rgb(249, 100, 100);
+  background-clip: content-box;
+  box-sizing: border-box;
+}
+
+.ul_1{
+  margin-bottom: 30px;
+}
+
+.header2{
+  margin-top: 30px;
+}
+
+
+
+.copy_link {
+  color:black;
+}
+
+.linked{
+  color:blue;
+}
+
+.copy_link, .linked{
+  background-color: rgb(241, 179, 232);
+}
+
+.address{
+  font-style:italic;
+}
+
+.bottoms{
+  text-align: right;
+
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+
+ul.ul_1{
+  list-style-type: square;
+  margin-left: 200px;
+}
+
+ul.ul_2{
+  list-style-type: circle;
+  padding-left: 240px;
+}
+

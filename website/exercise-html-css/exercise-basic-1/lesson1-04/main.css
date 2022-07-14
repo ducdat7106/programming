@@ -1,0 +1,26 @@
+body {
+  background-image: url("image/img1.png");
+  color: #008888;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+    margin-bottom: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content1 {
+    color: red;
+    font-weight: 900;
+    font-style: italic;
+    background-color: #339999;
+}
+
+
+

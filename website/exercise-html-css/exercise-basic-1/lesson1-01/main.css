@@ -1,0 +1,19 @@
+.header {
+  /* căn giữa */
+  text-align: center;
+}
+
+.main {
+  /* gạch chân */
+  text-decoration: underline;
+}
+
+.content {
+  /* in đậm */
+  font-weight: 900;
+}
+
+.text {
+  /* căn giữa */
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+body {
+  background-color: #a06d21;
+  color: #5112e6;
+
+  /*ddefine wallpaper */
+  background-image: url("image/img1.png");
+
+  /* wallpaper location */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* wallpaper not scroll with page */
+  background-attachment: fixed;
+}
+
+.header {
+  color: #fff;
+  text-align: center;
+}
+
+div{
+  margin-left: 5%;
+  margin-right: 5%;
+  background : border-box;
+
+}
+
+.content2{
+  margin-top: 20px;
+  background : border-box;
+}

@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    color: green;
+}
+
+span{
+    color:red;
+    font-weight: 900;
+}
+
+.toan-hoc{
+    margin-bottom: 10px;
+}
+
+#content{
+    background-color:rgb(206, 202, 202);
+    color:blue;
+}
+
+pre{
+    margin-top: 15px;
+
+    padding-top: 15px;
+    padding-left: 100px;
+    background: border-box;
+}
+

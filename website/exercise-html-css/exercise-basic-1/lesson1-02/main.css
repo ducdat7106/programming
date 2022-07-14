@@ -1,0 +1,52 @@
+.lesson2 {
+  /* căn giữa */
+  text-align: center;
+  /* màu chữ */
+  color: #006600;
+}
+
+.request {
+  text-decoration: underline;
+  color: #0000ff;
+}
+
+.design {
+  /* in đậm */
+  font-weight: 800;
+}
+
+.block1 {
+  font-weight: 900;
+  /* căn giữa */
+  text-align: center;
+  /* màu chữ */
+  color: #ff3399;
+  /* màu nền */
+  background-color: #fecffd;
+  /* in đậm */
+}
+
+.poem {
+  /* căn giữa */
+  text-align: center;
+  /* màu nền */
+  background-color: #ffffcc;
+  /* in nghiêng */
+  font-style: italic;
+}
+
+.poem1 {
+  color: #0000ff;
+}
+
+.poem2 {
+  color: red;
+}
+
+.poem3 {
+  color: green;
+}
+
+hr {
+  width: 30%;
+}

@@ -1,0 +1,50 @@
+body {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.header {
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  color: orange;
+
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid orange;
+
+  box-sizing: border-box;
+}
+
+#header {
+  font-size: 30px;
+  color: brown;
+}
+
+a {
+  color: black;
+  font-weight: 900;
+}
+
+.content2 {
+  width: 100%;
+  background-color: orange;
+  color: white;
+  text-align: right;
+}
+
+span {
+    
+}
+
+i {
+  background-color: rgb(255, 153, 0);
+}
+
+b {
+  color: red;
+}
+
+.content3{
+    text-align: right;
+}

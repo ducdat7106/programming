@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.section1 {
+    text-align:center ;
+    width: 100%;
+    height: 10000px;
+
+}
+
+body {
+    width : 100%;
+    height: 200vh;
+    background-image: linear-gradient(0deg, rgba(255, 255,255, 0.9), rgba(0,0,0, 0.9)),
+    url(https://i.pinimg.com/originals/1e/1f/0e/1e1f0e601f9c13414163a410316a8868.png); 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+}
+
+.div1 {
+    font-size: 40px;
+    color: white ;
+}
+
+.div2 {
+    font-size: 20px;
+    color: white ;
+}
+
+.btn1 {
+    font-size: 20px;
+    margin-top: 50px;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    border-radius: 25px; /* around corner button*/ 
+}

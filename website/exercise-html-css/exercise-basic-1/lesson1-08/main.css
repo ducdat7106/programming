@@ -1,0 +1,40 @@
+/* line-height: 20px: độ giãn dòng */
+
+body {
+  background-color: #ffedca;
+}
+
+h1.h1_title {
+  text-align: center;
+  color: orange;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-left: 50px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  width: 50%;
+  height: 50%;
+  margin-left: 100px;
+}
+
+.tr_title {
+  background-color: orange;
+}
+
+.tr_1,
+.tr_3,
+.tr_5,
+.tr_7 {
+  background-color: white;
+}
