@@ -1,0 +1,11 @@
+D:\programming\windown-form-c-shap\theory\lesson1-lable\lable-gui\lable-gui\bin\Debug\lable-gui.exe.config
+D:\programming\windown-form-c-shap\theory\lesson1-lable\lable-gui\lable-gui\bin\Debug\lable-gui.exe
+D:\programming\windown-form-c-shap\theory\lesson1-lable\lable-gui\lable-gui\bin\Debug\lable-gui.pdb
+D:\programming\windown-form-c-shap\theory\lesson1-lable\lable-gui\lable-gui\obj\Debug\lable-gui.csproj.AssemblyReference.cache
+D:\programming\windown-form-c-shap\theory\lesson1-lable\lable-gui\lable-gui\obj\Debug\lable-gui.csproj.SuggestedBindingRedirects.cache
+D:\programming\windown-form-c-shap\theory\lesson1-lable\lable-gui\lable-gui\obj\Debug\lable_gui.Form1.resources
+D:\programming\windown-form-c-shap\theory\lesson1-lable\lable-gui\lable-gui\obj\Debug\lable_gui.Properties.Resources.resources
+D:\programming\windown-form-c-shap\theory\lesson1-lable\lable-gui\lable-gui\obj\Debug\lable-gui.csproj.GenerateResource.cache
+D:\programming\windown-form-c-shap\theory\lesson1-lable\lable-gui\lable-gui\obj\Debug\lable-gui.csproj.CoreCompileInputs.cache
+D:\programming\windown-form-c-shap\theory\lesson1-lable\lable-gui\lable-gui\obj\Debug\lable-gui.exe
+D:\programming\windown-form-c-shap\theory\lesson1-lable\lable-gui\lable-gui\obj\Debug\lable-gui.pdb

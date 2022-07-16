@@ -1,0 +1,11 @@
+D:\programming\windown-form-c-shap\theory\lesson0-even-click\even-click\even-click\bin\Debug\even-click.exe.config
+D:\programming\windown-form-c-shap\theory\lesson0-even-click\even-click\even-click\bin\Debug\even-click.exe
+D:\programming\windown-form-c-shap\theory\lesson0-even-click\even-click\even-click\bin\Debug\even-click.pdb
+D:\programming\windown-form-c-shap\theory\lesson0-even-click\even-click\even-click\obj\Debug\even-click.csproj.AssemblyReference.cache
+D:\programming\windown-form-c-shap\theory\lesson0-even-click\even-click\even-click\obj\Debug\even-click.csproj.SuggestedBindingRedirects.cache
+D:\programming\windown-form-c-shap\theory\lesson0-even-click\even-click\even-click\obj\Debug\even_click.Form1.resources
+D:\programming\windown-form-c-shap\theory\lesson0-even-click\even-click\even-click\obj\Debug\even_click.Properties.Resources.resources
+D:\programming\windown-form-c-shap\theory\lesson0-even-click\even-click\even-click\obj\Debug\even-click.csproj.GenerateResource.cache
+D:\programming\windown-form-c-shap\theory\lesson0-even-click\even-click\even-click\obj\Debug\even-click.csproj.CoreCompileInputs.cache
+D:\programming\windown-form-c-shap\theory\lesson0-even-click\even-click\even-click\obj\Debug\even-click.exe
+D:\programming\windown-form-c-shap\theory\lesson0-even-click\even-click\even-click\obj\Debug\even-click.pdb

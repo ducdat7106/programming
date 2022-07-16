@@ -1,0 +1,5 @@
+Bài tập làm về 'thanh trượt phạm vi'
+
+ Tạo thanh trượt phạm vi tùy chỉnh bằng CSS và JavaScript.
+ 
+ Link tutorial: https://www.w3schools.com/howto/howto_js_rangeslider.asp
