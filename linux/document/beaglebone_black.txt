@@ -1,0 +1,14 @@
+192.168.7.2
+
+putty doanload
+
+log in
+debian:temppwd
+
+tightvnc viewer
+
+
+
+vmware workstation
+
+mobaxterm

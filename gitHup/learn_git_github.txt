@@ -1,0 +1,37 @@
+tutorial: https://www.youtube.com/watch?v=-YCi1EiZ_Lg
+
+-search google:
+
+	source control - quản lý mã nguồn
+
+
+github
+
+git download: https://git-scm.com/downloads
+
+hệ sinh thái của git có github, gitlap....
+
+
+vào cmd:
+
+check install : git --version
+
+
+tạo tài khoản github: 
+name user/ email log out:	 nhiennhienbn@gmail.com
+password:	nngithub3utc18
+
+tường nhà: https://github.com/nhienDang2000
+
+1_Kéo project về máy:
+git clone + "phần http trên github"
+
+cd + "path_cần đến"
+
+2_đẩy project lên github: commit code
+git add .
+git commit -am "first commit"
+git push
+
+3_lấy những thứ  mới nhất trên github: update code
+git pull

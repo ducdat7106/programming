@@ -1,0 +1,16 @@
+How do I collapse sections of code in Visual Studio Code for Windows?
+
+Fold folds the innermost uncollapsed region at the cursor:
+Ctrl + Shift + [ 
+
+
+Unfold unfolds the collapsed region at the cursor:
+Ctrl + Shift + ] 
+
+
+Fold All folds all regions in the editor:
+Ctrl + K, Ctrl + 0 (zero) 
+
+
+Unfold All unfolds all regions in the editor:
+Ctrl + K, Ctrl + J 

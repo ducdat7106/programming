@@ -1,8 +1,0 @@
-D:\C#\helloWord\bin\Debug\helloWord.exe.config
-D:\C#\helloWord\bin\Debug\helloWord.exe
-D:\C#\helloWord\bin\Debug\helloWord.pdb
-D:\C#\helloWord\obj\Debug\helloWord.csproj.AssemblyReference.cache
-D:\C#\helloWord\obj\Debug\helloWord.csproj.SuggestedBindingRedirects.cache
-D:\C#\helloWord\obj\Debug\helloWord.csproj.CoreCompileInputs.cache
-D:\C#\helloWord\obj\Debug\helloWord.exe
-D:\C#\helloWord\obj\Debug\helloWord.pdb
