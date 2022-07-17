@@ -1,0 +1,20 @@
+html, body{
+    margin: 0;
+    color: red;
+}
+
+.box{
+    width:  calc(120px + 50px);
+    height: 120px;
+    background: rgb(0, 255, 187);/*màu đặc -không thể nhìn xuyên qua*/
+}
+
+.box::after {
+    /* content: "Xin chao các bạn"; */
+    content: attr(data-title);
+}
+
+/* lớp giả */
+a::after {
+    content: "(" attr(href)  ")";
+}

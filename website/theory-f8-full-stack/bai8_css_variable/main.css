@@ -1,0 +1,22 @@
+/* lớp giả --  tạo biến toàn cục*/
+:root{
+    --text-color: red;/*--tên biến*/
+    --font-text: 15px;
+}
+
+.first1{
+    --text-color1: green;
+    color: var(--text-color1);/*var(..) - gọi biến*/
+    font-size: var(--font-text);
+}
+
+.first2{
+    --text-color: red;
+    color: var(--text-color);
+}
+
+.first3{
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 100; /*chữ đậm*/
+}

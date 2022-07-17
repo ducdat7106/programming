@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;    
+    background-image: url(https://www.dungplus.com/wp-content/uploads/2019/12/girl-xinh-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; /*lấy cạnh dài cảu bức ảnh, ko che khuất ảnh, có khoảng trắng trong nền*/
+    /* background-size: cover; *//*lấy cạnh dài của bức ảnh, có che khuất ảnh, ko có khoảng trắng trong nền */
+}

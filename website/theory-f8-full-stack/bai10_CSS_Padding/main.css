@@ -1,0 +1,44 @@
+
+
+.box {
+    /* Kích thước box */
+    width: 60px;
+    height:  60px;
+
+    /*text while*/
+    color:  #fff; 
+
+    /*căn giữa chữ ra box*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box1{
+    /*color background*/
+    background-color: black;
+
+    /* top right bottom left */
+    padding: 20px 30px 10px 12px;
+}
+
+.box2{
+    background-color:orange ;
+
+    /*type 2:
+        đệm thêm vào cả 4 hướng 
+    */
+    padding: 15px;
+}
+
+
+.box3{
+    background-color: red;
+    
+    /*type 1*/
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}

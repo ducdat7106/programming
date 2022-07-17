@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My First Paragraph.</p>
+
+<div>
+    <p id="demo">00</p>
+    <p id="news">00</p>
+</div>
+
+<script>
+    var z = 20;
+    document.getElementById("demo").innerHTML = "The value of x = " + z;
+
+    //declare function
+    function increat_Number()
+    {
+        var numbers = 14;
+        document.getElementById("news").innerHTML = "The value of y = "+(++numbers);
+    }
+
+    //call function, use function
+    increat_Number();
+
+</script>
+
+</body>
+</html> 
