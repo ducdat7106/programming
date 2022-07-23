@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup interface</title>
+    <link rel="stylesheet" href="signup_main.css">
+</head>
+
+<body>
+    <div id="content">
+        <span> </span>
+        <div id="container">
+            <div id="heading">
+                <h2>Sign Up</h2>
+                <p>Please fill in this form to create an account.</p>
+            </div>
+
+            <hr>
+            <form id="inputs">
+                <label for="username"><b>User name:</b></label>
+                <input type="text" placeholder="User Name" name="user_name" id="username" required>
+                <br>
+
+                <label for="email"><b>Address email:</b></label>
+                <input type="text" placeholder="Enter Email" name="Email" id="email" required>
+                <br>
+
+                <label for="password"><b>Password:</b></label>
+                <input type="password" placeholder="Enter Password" name="Password" id="password" required>
+                <br>
+
+                <label for="password_repeat"><b>Password repeat:</b></label>
+                <input type="password" placeholder="Password Repeat" name="Password_repeat" id="password_repeat"
+                    required>
+                <!-- <br> -->
+            </form>
+
+
+
+
+            <label class="container">Remember me
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+
+            <p>By creating an account you agree to out <a href="#" id="low">Terms & Privacy</a>.</p>
+
+            <div id="quit_or_signup">
+                <button type="button" id="cancel_btn">Cancel</button>
+                <button type="reset" value="Reset" id="reset_btn">Reset</button>
+                <button type="submit" value="Submit" id="signup_btn">Sign up</button>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="signup_function.js"></script>
+
+</body>
+
+</html>

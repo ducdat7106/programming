@@ -6,21 +6,14 @@ body {
   box-sizing: border-box;
 }
 
-#start_form{
-  width: auto;
-  height: auto;
-  text-align: center;
+div #heading {
+  text-align: left;
 }
 
-.p_heading {
-
-  text-align: center;
-  font-size: 50px;
-  font-weight: 900;
-}
-
-#heading{
-  text-align: center;
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
 }
 
 /* Full-width input fields */
@@ -54,25 +47,38 @@ button:hover {
   opacity: 1;
 }
 
+/* Add padding to container elements */
+#container {
+  padding: 40px;
+  border:  100px solid rgb(115, 109, 109);
+}
+
+#quit_or_signup {
+  margin-top: 30px;
+}
+
 /* Extra styles for the cancel button */
-.cancelbtn {
+#cancel_btn {
   padding: 14px 20px;
   background-color: #f44336;
 }
 
+#reset_btn {
+  padding: 14px 20px;
+  background-color: #f1ee10;
+  color: black;
+}
+
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
+#cancel_btn, #signup_btn, #reset_btn {
   float: left;
-  width: 50%;
+  width: 33%;
 }
 
-/* Add padding to container elements */
-.container {
-  padding: 100px;
+#low{
+  color: blue;
 }
 
-/* Style the horizontal ruler */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+#demo1, #demo2, #demo3, #demo4 {
+  color: red;
 }
