@@ -2,51 +2,43 @@
 
 using namespace std;
 
-//=====cài đặt danh sách( install list)=====
+// list - danh sách liên kết
+//=====install list=====
 typedef int ElementType;
 
 struct Node
 {
     ElementType Element;
-    Node *Next;
+    struct Node *Next;
 };
 
 typedef struct Node Node;
 
 typedef Node *Position;
+
 typedef Position List;
 
-void MakeNull_List(List &Header) // Khởi tạo danh sách rỗng
+// initialization list empty
+void MakeNull_List(List &Header)
 {
     Header = (Node *)malloc(sizeof(Node));
     Header->Next = NULL;
 }
 
-int Empty_List(List L) // kiểm tra danh sách rỗng, nếu rỗng trả về 1, không rỗng trả về 0
+// check stack empty.
+int Empty_List(List L)
 {
     return (L->Next == NULL);
 }
 
-Position FirstList(List L) // Trả về đầu danh sách
+// return value first list
+Position First_List(List L)
 {
     return L;
 }
 
-void Insert_List(ElementType X, Position P, List &L) // Chèn phần tử X vào danh sách L tại vị trí P
-{
-    Position T;
-    T = (Node *)malloc(sizeof(Node));
-    T->Element = X;
-    T->Next = P->Next;
-    P->Next = T;
-}
-
-void InsertFirstList(ElementType X, List &L) // Chèn phần tử X vào đầu danh sách
-{
-    Insert_List(X, FirstList(L), L);
-}
-
-Position EndList(List L) // Cho biết vị trí cuối danh sách
+// return value end list
+Position End_List(List L)
 {
     Position P;
     P = L;
@@ -55,12 +47,30 @@ Position EndList(List L) // Cho biết vị trí cuối danh sách
     return P;
 }
 
-void InsertEndList(ElementType X, List &L) // Chèn X vào cuối danh sách
+// insert element X into list L at position P
+void Insert_List(ElementType X, Position P, List &L)
 {
-    Insert_List(X, EndList(L), L);
+    Position T;
+    T = (Node *)malloc(sizeof(Node));
+    T->Element = X;
+    T->Next = P->Next;
+    P->Next = T;
 }
 
-void Delete_List(Position P, List &L) // Xóa phần tử thứ P trong danh sách L
+// insert element X into first list
+void Insert_First_List(ElementType X, List &L)
+{
+    Insert_List(X, First_List(L), L);
+}
+
+// insert element X into end list
+void Insert_End_List(ElementType X, List &L)
+{
+    Insert_List(X, End_List(L), L);
+}
+
+// delete element at position P in list L
+void Delete_List(Position P, List &L)
 {
     Position T;
     if (P->Next != NULL)
@@ -71,7 +81,8 @@ void Delete_List(Position P, List &L) // Xóa phần tử thứ P trong danh
     }
 }
 
-Position Locate(ElementType X, List L) //Định vị vị trí của X trong danh sach L
+// return position of element X in list L
+Position Locate(ElementType X, List L)
 {
     Position P = L;
     while (P->Next != NULL)
@@ -82,31 +93,34 @@ Position Locate(ElementType X, List L) //Định vị vị trí của X trong d
     return P;
 }
 
-ElementType Retrieve(Position P, List L) // Trả về giá trị tại vị trí P trong danh sách L
+// return value of element at position P in list L
+ElementType Retrieve(Position P, List L)
 {
     if (P->Next != NULL)
         return P->Next->Element;
 }
 
-void Read_List(List &L) // Nhap danh sách vào
+// enter list L
+void Read_List(List &L)
 {
     int n;
-    printf("\t Nhap so phan tu cua danh sach: ");
+    printf("\t Enter number of element: ");
     scanf("%d", &n);
     int i = 0;
     ElementType X;
     while (i < n)
     {
-        printf("\t-Nhap phan tu thu %d: ", i);
+        printf("\t-Enter th element %d: ", i);
         scanf("%d", &X);
-        InsertEndList(X, L);
+        Insert_End_List(X, L);
         i++;
     }
 }
 
-void Print_List(List &L) // In danh sách ra
+// output list L
+void Print_List(List &L)
 {
-    Position P = FirstList(L);
+    Position P = First_List(L);
     while (P->Next != NULL)
     {
         printf("%6d", P->Next->Element);
@@ -114,7 +128,9 @@ void Print_List(List &L) // In danh sách ra
     }
 }
 
-void Distinct(List &L) // Loc xóa các phần tử trùng nhau
+// delete all elements similar
+// or filter delete elements similar
+void Distinct(List &L)
 {
 
     Position P, Q;
@@ -128,7 +144,8 @@ void Distinct(List &L) // Loc xóa các phần tử trùng nhau
     }
 }
 
-void Sort(List &L) // sắp xếp danh sách theo thứ tự tăng/giảm dần
+// sort the list in  ascending order  -- ascending order-thứ tự tăng dần
+void Sort(List &L) 
 {
     Position P, Q;
     ElementType Temp;
@@ -142,9 +159,10 @@ void Sort(List &L) // sắp xếp danh sách theo thứ tự tăng/giảm d
                 Q->Next->Element = Temp;
             }
 }
-//=====finish install list=====
+//=====Finish install list=====
 
-//=====start install stack by list=====
+//=====Start install stack by list=====
+
 typedef List Stack;
 
 // void MakeNuLL_Stack(Stack *S)
@@ -162,14 +180,16 @@ int Empty_Stack(Stack S)
     return Empty_List(S);
 }
 
+// push into top stack
 void Push(ElementType X, Stack &S)
 {
-    Insert_List(X, FirstList(S), S);
+    Insert_List(X, First_List(S), S);
 }
 
+// delete at top stack
 void Pop(Stack &S)
 {
-    Delete_List(FirstList(S), S);
+    Delete_List(First_List(S), S);
 }
 
 int main()
