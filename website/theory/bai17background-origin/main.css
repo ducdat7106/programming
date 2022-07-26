@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+} 
+
+.header {
+    width: 100%;
+    height: 100vh;    
+    background-image: url(https://kenh14cdn.com/thumb_w/660/2020/5/28/0-1590653959375414280410.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 20px dashed #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    /* tương tự như background clip */
+    /* mặc định là padding-box */
+    /* background-origin: border-box; */
+    background-origin: content-box;
+}

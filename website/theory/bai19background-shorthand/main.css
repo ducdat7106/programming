@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+} 
+
+.header {
+    width: 100%;
+    height: 100vh;    
+    /* background-image: url(https://kenh14cdn.com/thumb_w/660/2020/5/28/0-1590653959375414280410.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; */
+
+    background: url(https://kenh14cdn.com/thumb_w/660/2020/5/28/0-1590653959375414280410.jpg) no-repeat center / contain ;
+    
+}

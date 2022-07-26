@@ -1,0 +1,61 @@
+.box {
+    width: 60px;
+    height:  60px;
+
+    /*text while*/
+    color:  #fff; 
+
+    /*chữ căn giữa trong box*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box1{
+    /*color background*/
+    background-color: black;
+
+    /*
+     kiểu viết ngắn cho tât cả các hướng
+
+     kích thước - kiểu thể hiện - màu 
+    */    
+    border: 10px solid #fff;
+
+
+    
+}
+
+.box2 {
+    background-color:orange ;
+
+    /* border-top-width: 10px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    border-bottom-width: 10px; */
+
+    border-top: 10px dashed #333;   /*dashed - nét đứt*/
+
+    border-style: dashed;
+    border-color: #333;
+   
+}
+
+.box3{
+    background-color: red;
+
+    /*Node: thuộc tính padding và border làm tăng tổng kích thước đối tượng */
+    padding: 10px;
+   
+    border-width: 10px; /* xét cho cả 4 chiều */
+    /* 
+        solid - nét liền 
+
+        mặc định kiểu solid có chiều rộng 2px
+        --> khi xét 1 chiều bất kỳ
+        ------> các chiều khác phải cho bằng 0
+    */
+    border-style: solid;/* solid - nét liền */
+    border-color: #333;
+}
