@@ -2,8 +2,7 @@
 
 using namespace std;
 
-// list - danh sách liên kết
-//=====install list=====
+//===============install list=====
 typedef int ElementType;
 
 struct Node
@@ -17,6 +16,8 @@ typedef struct Node Node;
 typedef Node *Position;
 
 typedef Position List;
+
+typedef List Stack;
 
 // initialization list empty
 void MakeNull_List(List &Header)
@@ -145,7 +146,7 @@ void Distinct(List &L)
 }
 
 // sort the list in  ascending order  -- ascending order-thứ tự tăng dần
-void Sort(List &L) 
+void Sort(List &L)
 {
     Position P, Q;
     ElementType Temp;
@@ -180,21 +181,56 @@ int Empty_Stack(Stack S)
     return Empty_List(S);
 }
 
-// push into top stack
+// push element into top stack
 void Push(ElementType X, Stack &S)
 {
     Insert_List(X, First_List(S), S);
 }
 
-// delete at top stack
+// delete element at top stack
 void Pop(Stack &S)
 {
     Delete_List(First_List(S), S);
 }
 
+ElementType Top(Stack S)
+{
+    return Retrieve(First_List(S), S);
+}
+
+void Read_Stack(Stack &S)
+{
+    int i, N;
+    ElementType X;
+    MakeNuLL_Stack(S);
+    cout << "Number of element of stack N = ";
+    cin >> N;
+    for (i = 0; i < N; i++)
+    {
+        cout << "Number th element: " << i + 1<<":   ";
+        cin >> X;
+        Push(X, S);
+    }
+}
+
+void Print_Stack(Stack S)
+{
+    while (!Empty_Stack(S))
+    {
+        cout << Top(S) << "   ";
+        Pop(S);
+    }
+    cout << endl;
+}
+
 int main()
 {
     system("cls");
+
+    Stack S;
+    Read_Stack(S);
+    cout << "Stack just enter: ";
+    Print_Stack(S);
 
     system("pause");
     return 0;

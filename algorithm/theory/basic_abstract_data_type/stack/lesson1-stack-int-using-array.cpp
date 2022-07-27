@@ -150,7 +150,7 @@ int main()
     int pos;
 
     MakeNull_Stack(S);
-
+    
     Input_Stack(S);
 
     printf("\n\t=> Stack of you just entered:\n");
