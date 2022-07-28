@@ -1,0 +1,25 @@
+.login_again {
+    text-align: center;
+}
+
+h1, h2 {
+    color: blue;
+    font-weight: 900;
+}
+
+.quit_website {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#login_again {
+    margin-top: 100px;
+    color: blue;
+    font-size: 20px;
+}
+
+#exit {
+    color: blue;
+    font-size: 20px;
+}
+
