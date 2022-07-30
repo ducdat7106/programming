@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Send email</title>
+
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+	<div class="email_send">
+		<p>Click button to send email</p>
+		<input type="button" value="send - email" id="send_email_btl">
+	</div>
+
+	<script type="text/javascript">
+		function SendEmail() 
+		{
+			Email.send({
+				Host: "smtp.elasticemail.com",
+				Username: "nhiennhienbn@gmail.com",
+				Password: "3F3C38D0DD6829E0C3003A1B7D2977E7405F",
+				To: 'ducdatn7@gmail.com',
+				From: "nhiennhienbn@gmail.com",
+				Subject: "This is the subject",
+				Body: "Password upload is: ducdat12a1"
+			}).then(function (message) {
+				alert("Email sent successfully")
+			});
+		}
+
+			document.getElementById('send_email_btl').onclick = function () {
+				SendEmail();
+			}
+
+	</script>
+
+</body>
+
+</html>
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</head>
+
+<body>
+	<form method="post">
+		<input type="button" value="Send Email" onclick="sendEmail()" />
+	</form>
+
+
+	<script type="text/javascript">
+		function sendEmail() {
+			Email.send({
+				Host: "smtp.gmail.com",
+				Username: "ducdat@gmail.com",
+				Password: "ddgmail3utc18",
+				To: 'nhiennhienbn@gmail.com',
+				From: "ducdat@gmail.com",
+				Subject: "Sending Email using javascript",
+				Body: "Well that was easy!!",
+			})
+				.then(function (message) {
+					alert("mail sent successfully")
+				});
+		}
+	</script>
+</body>
+
+</html> -->
