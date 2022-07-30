@@ -1,0 +1,27 @@
+.nav-bar {
+    min-height: 42px;
+    background-color: rgb(120, 200, 150);
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list {
+    padding-left: 0;
+    margin: auto 15px;
+}
+
+.nav-item {
+    display: block; /* hiển thị khối chứa phần tử*/
+    color: white;
+    padding: 10px 15px;
+    list-style: none; /* loại bỏ các dấu đầu mục vì thanh điều hướng không cần dấu này*/
+    display: inline-block; /* hiển thị trên cùng một dòng */
+}
+
+.nav-item:hover {
+    background-color: #db7093;
+    font-weight: bold;
+    color: white;
+}
+
+
